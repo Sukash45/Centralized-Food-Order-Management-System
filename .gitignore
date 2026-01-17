@@ -1,0 +1,12 @@
+# Ignore dependencies in ALL folders
+node_modules/
+**/node_modules/
+
+# Ignore Environment Variables (Secrets)
+.env
+**/.env
+
+# Ignore build files
+dist/
+build/
+.DS_Store
